@@ -12,5 +12,6 @@ lista = ["Guitarra", "Bateria", "Violão", "Baixo"]
 #print(lista)
 
 #inverte a ordem da lista
+
 lista.reverse()
 print(lista)
