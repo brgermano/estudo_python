@@ -1,9 +1,20 @@
-def somar(n1, n2):
-    return n1 + n2
+# função de soma
+def somar(a, b):
+    return float(a) + float(b)
 
 
-# num1 = 2
-#num2 = 5
+# função de subtração
+def subtrair(a, b):
+    return float(a) - float(b)
 
-#teste = somar(num1, num2)
-#print(teste)
+
+# função de divisão
+def dividir(a, b):
+    if b == 0:
+        return 0
+    return float(a) / float(b)
+
+
+# função de multiplicar
+def multiplicar(a, b):
+    return float(a) * float(b)
